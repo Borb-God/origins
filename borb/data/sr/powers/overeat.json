@@ -1,0 +1,24 @@
+{
+	"type": "origins:activate_self",
+	"entity_action": {
+  "type": "origins:and",
+  "actions": [
+    {
+      "type": "origins:exhaust",
+      "amount": 0.5
+    },
+    {    
+      "type": "origins:spawn_entity",
+      "entity_type": "minecraft:tnt"
+	  "tag": "{fuse:0}"
+      }
+    }
+	"cooldown": 330,
+"hud_render": {
+	"should_render": true,
+	"bar_index": 8
+  ]
+  "key": "primary"
+  "name": "Overeat"
+  "description": "Big Chonk man converts hunger into boom"
+}
