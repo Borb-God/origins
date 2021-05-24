@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "origins:scare_creepers",
+        "borb:plasma_fist",
+        "origins:tailwind",
+        "origins:carnivore",
+        "origins:more_exhaustion",
+        "origins:nine_lives"
+    ],
+    "icon": "minecraft:redstone",
+    "order": 4,
+    "impact": 3,
+    "name": "Zeraora",
+    "description": "Zappy Boi"
+}

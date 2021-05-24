@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:air_from_potions",
+        "origins:water_breathing",
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "borb:dolphin_boost",
+        "borb:fishivore",
+        "origins:aquatic"
+    ],
+    "icon": "minecraft:tropical_fish",
+    "order": 3,
+    "impact": 3,
+    "name": "Dolphin",
+    "description": "Dolphin man, take me by the hand take me to the land!"
+}

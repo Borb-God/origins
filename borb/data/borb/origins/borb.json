@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"origins:slow_falling",
+		"origins:lay_eggs",
+		"borb:explode",
+		"borb:chonky"
+	],
+	"icon": "minecraft:feather",
+	"order": 4,
+	"impact": 2,
+	"name": "Borb",
+	"description": "Big Chonky bird boi"
+}

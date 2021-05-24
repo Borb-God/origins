@@ -1,0 +1,15 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:spawn_entity",
+        "entity_type": "minecraft:lightning_bolt",
+        "tag": "{}"
+      },
+    "cooldown": 1800,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 5
+    },
+    "name": "Plasma Fist",
+    "description": "Zappy Fists"
+}
