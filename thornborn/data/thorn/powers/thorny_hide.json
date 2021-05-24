@@ -1,0 +1,14 @@
+{
+	"type": "origins:attacker_action_when_hit",
+   "entity_action": {
+      "type": "origins:damage",
+      "amount": 1,
+      "source": {
+         "name": "cactus",
+        "bypasses_armor": true
+      }
+    },
+	"cooldown": 0,
+	"name": "Thorny Hide",
+	"description": "You are covered by thorns, enemies hitting you gets 1 damage and you dealt 1 more damage."
+}

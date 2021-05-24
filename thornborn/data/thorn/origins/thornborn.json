@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "thorn:thorny_hide",
+        "thorn:hydration",
+        "thorn:thorny_creep",
+        "thorn:brittle_stem",
+        "thorn:thorny_vitality"
+    ],
+    "icon": "minecraft:sweet_berries",
+    "impact": 3,
+    "order": 5,
+    "name": "Thorn Born",
+    "description": "Thorny Boi"
+}
