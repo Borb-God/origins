@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:slow_falling",
+            "duration": 25,
+            "amplifier": 0
+        }
+    },
+    "interval": 20,
+    "name": "Death's Descent",
+    "description": "Death descends upon the world"
+}

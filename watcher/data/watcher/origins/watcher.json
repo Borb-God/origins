@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "watcher:restore_hunger",
+        "watcher:double_jump",
+        "watcher:stone_skin",
+        "watcher:warrior",
+        "watcher:watcher_rage",
+        "origins:slow_falling",
+        "watcher:armorless",
+        "origins:elytra",
+        "watcher:no_food",
+        "origins:water_vulnerability",
+        "origins:no_shield"
+    ],
+    "icon": "minecraft:iron_sword",
+    "impact": 3,
+    "order": 1,
+    "name": "The Watcher",
+    "description": "He watches, he waits"
+}

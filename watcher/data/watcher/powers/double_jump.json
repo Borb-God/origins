@@ -1,0 +1,14 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "z": 2,
+        "space": "local"
+    },
+    "hud_render": {
+        "bar_index": 4
+    },
+    "name": "Harpy Wings",
+    "description": "Wings of Death",
+    "cooldown": 100
+}

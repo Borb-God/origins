@@ -1,0 +1,63 @@
+{
+	"type": "origins:multiple",
+	"name": "Scopophobia",
+	"description": "Stone turned in sight",
+	"startup": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"type": "origins:execute_command",
+			"command": "tag @s add end_voyager",
+			"permission_level": 4
+		},
+		"entity_action_added": {
+			"type": "origins:execute_command",
+			"command": "tag @s add end_voyager",
+			"permission_level": 4
+		},
+		"entity_action_respawned": {
+			"type": "origins:execute_command",
+			"command": "tag @s add end_voyager",
+			"permission_level": 4
+		},
+		"entity_action_removed": {
+			"type": "origins:execute_command",
+			"command": "tag @s remove end_voyager",
+			"permission_level": 4
+		},
+		"entity_action_lost": {
+			"type": "origins:execute_command",
+			"command": "tag @s remove end_voyager",
+			"permission_level": 4
+		},
+		"execute_chosen_when_orb": true
+	},
+	"looking": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scoreboard players set @a range 64",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "execute as @a[tag=!end_voyager,distance=0..32] at @s anchored eyes run function watcher:start",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "function watcher:viewtime_increment",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "tag @a[tag=observed] remove observed",
+					"permission_level": 4
+				}
+			]
+		},
+		"interval": 1
+	}
+}		

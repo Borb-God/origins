@@ -1,0 +1,17 @@
+{
+	"name": "Stone Skin",
+	"description":"The ancient statue formed from stone",
+  "type": "origins:attribute",
+
+  "modifier": {
+
+    
+    "attribute": "minecraft:generic.armor",
+
+    "value": 9.0,
+
+    "operation": "addition"
+
+  }
+
+}
